@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysstat
+xmlns="https://sysstat.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://sysstat.github.io https://sysstat.github.io/sysstat.xsd">
+	<sysdata-version>3.16</sysdata-version>
+	<host nodename="SYSSTAT.TEST">
+		<sysname>Linux</sysname>
+		<release>1.2.3-TEST</release>
+		<machine>x86_64</machine>
+		<number-of-cpus>9</number-of-cpus>
+		<file-date>2019-04-18</file-date>
+		<file-utc-time>13:20:09</file-utc-time>
+		<timezone>GMT</timezone>
+		<statistics>
+		</statistics>
+		<restarts>
+			<boot date="2019-04-18" time="13:20:09" tz="UTC" cpu_count="9"/>
+		</restarts>
+	</host>
+</sysstat>

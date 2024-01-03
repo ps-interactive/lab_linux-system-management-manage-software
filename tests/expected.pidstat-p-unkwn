@@ -1,0 +1,7 @@
+Linux 1.2.3-TEST (SYSSTAT.TEST) 	06/01/20 	_x86_64_	(9 CPU)
+
+12:53:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+
+12:53:20      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+
+12:53:20      UID       PID prio policy  Command

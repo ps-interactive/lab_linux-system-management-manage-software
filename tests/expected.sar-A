@@ -1,0 +1,547 @@
+Linux 1.2.3-TEST (SYSSTAT.TEST) 	06/01/20 	_x86_64_	(9 CPU)
+
+12:53:20        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
+12:53:21        all      2.15     12.50      1.84      0.12      0.00      0.34      0.19      0.00      0.00     82.88
+
+12:53:20       proc/s   cswch/s
+12:53:21         3.56  68409.30
+
+12:53:20         INTR       all
+12:53:21          sum  31915.30
+12:53:21            0      0.00
+12:53:21            8      0.00
+12:53:21            9      0.00
+12:53:21           16      0.00
+12:53:21           17      0.00
+12:53:21           18      0.00
+12:53:21           19     25.92
+12:53:21           23     35.03
+12:53:21           24     10.39
+12:53:21           25      0.00
+12:53:21           26      0.00
+12:53:21           27      0.00
+12:53:21           28      0.00
+12:53:21           29      0.00
+12:53:21           30      0.00
+12:53:21           31      0.00
+12:53:21           32      0.00
+12:53:21           33     15.11
+12:53:21           34    149.98
+12:53:21           35      0.00
+12:53:21           36      0.00
+12:53:21          NMI      0.00
+12:53:21          LOC  34485.34
+12:53:21          SPU      0.00
+12:53:21          PMI      0.00
+12:53:21          IWI      0.00
+12:53:21          RTR      0.00
+12:53:21          RES      0.00
+12:53:21          CAL      0.00
+12:53:21          TLB      0.00
+12:53:21          TRM      0.00
+12:53:21          THR      0.00
+12:53:21          DFR      0.00
+12:53:21          MCE      0.00
+12:53:21          MCP      0.00
+12:53:21          HYP      0.00
+12:53:21          HRE      0.00
+12:53:21          HVS      0.00
+12:53:21          ERR      0.00
+12:53:21          MIS      0.00
+12:53:21          PIN      0.00
+12:53:21          NPI      0.00
+12:53:21          PIW      0.00
+
+12:53:20     pswpin/s pswpout/s
+12:53:21         0.00      0.00
+
+12:53:20     pgpgin/s pgpgout/s   fault/s  majflt/s  pgfree/s pgscank/s pgscand/s pgsteal/s  pgprom/s   pgdem/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00    179.85     31.70
+
+12:53:20          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+12:53:21        20.85     12.83      4.81      3.21     57.43     38.50     32.08
+
+12:53:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty  kbanonpg    kbslab  kbkstack   kbpgtbl  kbvmused
+12:53:21      1437740   4389516   3179712     39.04    260172   2821596  12097852     48.54   4042384   1772396       396   2733164    445740     15328     73760         0
+
+12:53:20    kbswpfree kbswpused  %swpused  kbswpcad   %swpcad
+12:53:21     16777212         0      0.00         0      0.00
+
+12:53:20    kbhugfree kbhugused  %hugused kbhugrsvd kbhugsurp
+12:53:21            0         0      0.00         0         0
+
+12:53:20    dentunusd   file-nr  inode-nr    pty-nr
+12:53:21       156063     16704    157735         4
+
+12:53:20      runq-sz  plist-sz   ldavg-1   ldavg-5  ldavg-15   blocked
+12:53:21            3       956      3.16      3.24      3.43         0
+
+12:53:20          TTY   rcvin/s   xmtin/s framerr/s prtyerr/s     brk/s   ovrun/s
+12:53:21            0      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21            1      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20          DEV       tps     rkB/s     wkB/s     dkB/s   areq-sz    aqu-sz     await     %util
+12:53:21          sda      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21          sdb      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21          sdq      9.62      7.86      0.00     16.04      2.48      0.01     13.00      0.96
+12:53:21          sdr      4.81      4.81     16.04      0.00      4.33      0.06     15.33      6.42
+12:53:21          sds      6.42     16.04      3.21      0.00      3.00      0.04      8.50      0.32
+
+12:53:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+12:53:21           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21       virbr0      3.21      0.00      0.03      0.00      0.00      0.00     19.25      0.00
+12:53:21     virbr0-1     22.46      0.00      0.09      0.13      0.00      0.00    320.82      0.00
+12:53:21       wlp5s0     16.04     32.08      0.31      0.09      0.00      0.00     32.08      0.00
+
+12:53:20        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+12:53:21           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:21       virbr0      0.00      0.00      0.64      0.00      0.00      0.00      2.57      0.00      0.00
+12:53:21     virbr0-1      0.00      0.00      3.21      0.00      0.00      0.00      0.96      0.00      0.00
+12:53:21       wlp5s0      0.00      0.00      0.00      3.21      0.00      0.00      0.00      0.00      0.00
+
+12:53:20       call/s retrans/s    read/s   write/s  access/s  getatt/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+12:53:21         1316        10         6         0         0         1
+
+12:53:20       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20     active/s passive/s    iseg/s    oseg/s
+12:53:21         0.00      0.00      0.00      0.00
+
+12:53:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+12:53:21         0.00      0.00      0.00      0.00      0.00
+
+12:53:20       idgm/s    odgm/s  noport/s idgmerr/s
+12:53:21         0.00      0.00      0.00      0.00
+
+12:53:20      tcp6sck   udp6sck   raw6sck  ip6-frag
+12:53:21            3         3         1         0
+
+12:53:20      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+12:53:21         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:20      idgm6/s   odgm6/s noport6/s idgmer6/s
+12:53:21         0.00      0.00      0.00      0.00
+
+12:53:20    fch_rxf/s fch_txf/s fch_rxw/s fch_txw/s FCHOST
+12:53:21         0.00      0.00      0.00      0.00 host0
+
+12:53:20        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s   blg_len
+12:53:21        all      0.00      0.00      0.00      0.00      0.00         0
+
+12:53:20        CPU       MHz
+12:53:21        all   3522.54
+
+12:53:20        CPU    wghMHz
+12:53:21        all   1123.35
+
+12:53:20     MBfsfree  MBfsused   %fsused  %ufsused     Ifree     Iused    %Iused FILESYSTEM
+12:53:21          705       145     17.04     18.92   6008414    102818      1.68 /dev/sda9
+12:53:21         2496       845     25.29     46.57  19051710    150338      0.78 /dev/sda7
+12:53:21          705       145     17.04     18.92   6008414    102818      1.68 /dev/sda12
+12:53:21          273       206     42.93     51.97  19201593       455      0.00 /dev/sda6
+
+12:53:20     %scpu-10  %scpu-60 %scpu-300     %scpu
+12:53:21         0.00      0.00      0.00      0.03
+
+12:53:20      %sio-10   %sio-60  %sio-300      %sio   %fio-10   %fio-60  %fio-300      %fio
+12:53:21         3.19      1.14      0.43      2.33      3.19      1.14      0.42      2.25
+
+12:53:20     %smem-10  %smem-60 %smem-300     %smem  %fmem-10  %fmem-60 %fmem-300     %fmem
+12:53:21         3.12      1.40      0.03      0.05      0.00      0.00      0.00      0.02
+
+12:53:21        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
+12:53:22        all      2.28      0.00      1.55      0.48      0.00      0.19      0.19      0.00      0.00     95.31
+
+12:53:21       proc/s   cswch/s
+12:53:22         4.83  46287.74
+
+12:53:21         INTR       all
+12:53:22          sum      0.00
+12:53:22            0      0.00
+12:53:22            8      0.00
+12:53:22            9      0.00
+12:53:22           16      0.00
+12:53:22           17      0.00
+12:53:22           18      0.00
+12:53:22           19     23.34
+12:53:22           23     23.88
+12:53:22           24     12.93
+12:53:22           25      0.00
+12:53:22           26      0.00
+12:53:22           27      0.00
+12:53:22           28      0.00
+12:53:22           29      0.00
+12:53:22           30      0.00
+12:53:22           31      0.00
+12:53:22           32      0.00
+12:53:22           33     10.21
+12:53:22           34      0.00
+12:53:22           35      0.00
+12:53:22           36      0.00
+12:53:22          NMI      0.00
+12:53:22          LOC      0.00
+12:53:22          SPU      0.00
+12:53:22          PMI      0.00
+12:53:22          IWI      0.00
+12:53:22          RTR      0.00
+12:53:22          RES      0.00
+12:53:22          CAL      0.00
+12:53:22          TLB      0.00
+12:53:22          TRM      0.00
+12:53:22          THR      0.00
+12:53:22          DFR      0.00
+12:53:22          MCE      0.00
+12:53:22          MCP      0.00
+12:53:22          HYP      0.00
+12:53:22          HRE      0.00
+12:53:22          HVS      0.00
+12:53:22          ERR      0.00
+12:53:22          MIS      0.00
+12:53:22          PIN      0.00
+12:53:22          NPI      0.00
+12:53:22          PIW      0.00
+
+12:53:21     pswpin/s pswpout/s
+12:53:22         0.00      0.00
+
+12:53:21     pgpgin/s pgpgout/s   fault/s  majflt/s  pgfree/s pgscank/s pgscand/s pgsteal/s  pgprom/s   pgdem/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.29     35.08
+
+12:53:21          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+12:53:22        56.63     41.26      8.96      6.40     17.16     20.81     32.01
+
+12:53:21    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty  kbanonpg    kbslab  kbkstack   kbpgtbl  kbvmused
+12:53:22      1437740   4389516   3179712     39.04    260172   2821596  12097852     48.54   4042384   1772396       396   2733164    445740     15328     73760         0
+
+12:53:21    kbswpfree kbswpused  %swpused  kbswpcad   %swpcad
+12:53:22     16777212         0      0.00         0      0.00
+
+12:53:21    kbhugfree kbhugused  %hugused kbhugrsvd kbhugsurp
+12:53:22            0         0      0.00         0         0
+
+12:53:21    dentunusd   file-nr  inode-nr    pty-nr
+12:53:22       156063     16704    157735         4
+
+12:53:21      runq-sz  plist-sz   ldavg-1   ldavg-5  ldavg-15   blocked
+12:53:22            3       956      3.16      3.24      3.43         0
+
+12:53:21          TTY   rcvin/s   xmtin/s framerr/s prtyerr/s     brk/s   ovrun/s
+12:53:22            0      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22            1      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21          DEV       tps     rkB/s     wkB/s     dkB/s   areq-sz    aqu-sz     await     %util
+12:53:22          sda      6.40      1.60      1.60      0.00      0.50      0.00      1.00      0.32
+12:53:22          sdb      0.67     22.60      0.00      0.00     33.62      0.10     47.00      0.05
+12:53:22          sdq     38.41     48.02      0.00     16.01      1.67      0.00      1.67      0.00
+12:53:22          sdr      8.32      3.20      6.40      0.00      1.15      0.03      2.69      2.94
+12:53:22          sds      4.45      0.64      2.40      0.00      0.68      0.03      1.37      0.32
+
+12:53:21        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+12:53:22           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22       enp6s0     53.55     17.45     64.37      3.38      0.00      0.00      9.25      0.05
+12:53:22       virbr0     16.01      0.00      0.01      0.00      0.00      0.00     19.21      0.00
+12:53:22     virbr0-1      5.76      0.00      0.03      0.02      0.00      0.00     32.01      0.00
+12:53:22       wlp5s0      6.40     32.01      0.13      0.06      0.00      0.00      9.60      0.00
+
+12:53:21        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+12:53:22           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      2.56      0.00      0.00
+12:53:22     virbr0-1      0.00      0.00      0.16      0.00      0.00      0.00      0.00      0.00      0.00
+12:53:22       wlp5s0      0.00      0.00      0.00      9.60      0.00      0.00      0.00      0.00      0.00
+
+12:53:21       call/s retrans/s    read/s   write/s  access/s  getatt/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+12:53:22         1316        10         6         0         0         1
+
+12:53:21       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21     active/s passive/s    iseg/s    oseg/s
+12:53:22         0.00      0.00      0.00      0.00
+
+12:53:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+12:53:22         0.00      0.00      0.00      0.00      0.00
+
+12:53:21       idgm/s    odgm/s  noport/s idgmerr/s
+12:53:22         0.00      0.00      0.00      0.00
+
+12:53:21      tcp6sck   udp6sck   raw6sck  ip6-frag
+12:53:22            3         3         1         0
+
+12:53:21      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+12:53:22         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+12:53:21      idgm6/s   odgm6/s noport6/s idgmer6/s
+12:53:22         0.00      0.00      0.00      0.00
+
+12:53:21    fch_rxf/s fch_txf/s fch_rxw/s fch_txw/s FCHOST
+12:53:22         0.00      0.00      0.00      0.00 host0
+
+12:53:21        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s   blg_len
+12:53:22        all      0.00      0.00      0.00      0.00      0.00         0
+
+12:53:21        CPU       MHz
+12:53:22        all   3522.54
+
+12:53:21        CPU    wghMHz
+12:53:22        all   2001.00
+
+12:53:21        BUS  idvendor    idprod  maxpower manufact                product
+12:53:22          1       3f0       862       196 HP                      HP Wireless Keyboard Mouse Kit
+12:53:22          3      174c      55aa         0 ASMT                    ASM1153
+
+12:53:21     MBfsfree  MBfsused   %fsused  %ufsused     Ifree     Iused    %Iused FILESYSTEM
+12:53:22          273       206     42.93     51.97  19201593       455      0.00 /dev/sda9
+12:53:22         1618       127      7.27     39.50   1621550    299810     15.60 /dev/sda7
+12:53:22         2496       845     25.29     46.57  19051710    150338      0.78 /dev/sda12
+12:53:22          705       145     17.04     18.92   6008414    102818      1.68 /dev/sda6
+12:53:22          273       206     42.93     51.97  19201593       455      0.00 /dev/sdf
+12:53:22         1618       127      7.27     39.50   1621550    299810     15.60 /dev/sdg
+
+12:53:21     %scpu-10  %scpu-60 %scpu-300     %scpu
+12:53:22         0.00      0.00      0.00      0.23
+
+12:53:21      %sio-10   %sio-60  %sio-300      %sio   %fio-10   %fio-60  %fio-300      %fio
+12:53:22         0.00      0.16      0.29      1.39      0.00      0.15      0.28      1.24
+
+12:53:21     %smem-10  %smem-60 %smem-300     %smem  %fmem-10  %fmem-60 %fmem-300     %fmem
+12:53:22        21.06     14.31      3.80      0.03      0.00      0.00      0.00      0.01
+
+Average:        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
+Average:        all      2.20      7.13      1.71      0.27      0.00      0.27      0.19      0.00      0.00     88.22
+
+Average:       proc/s   cswch/s
+Average:         4.20  57336.12
+
+Average:         INTR       all
+Average:          sum      0.00
+Average:            0      0.00
+Average:            8      0.00
+Average:            9      0.00
+Average:           16      0.00
+Average:           17      0.00
+Average:           18      0.00
+Average:           19     24.63
+Average:           23     29.45
+Average:           24     11.66
+Average:           25      0.00
+Average:           26      0.00
+Average:           27      0.00
+Average:           28      0.00
+Average:           29      0.00
+Average:           30      0.00
+Average:           31      0.00
+Average:           32      0.00
+Average:           33     12.66
+Average:           34      0.00
+Average:           35      0.00
+Average:           36      0.00
+Average:          NMI      0.00
+Average:          LOC      0.00
+Average:          SPU      0.00
+Average:          PMI      0.00
+Average:          IWI      0.00
+Average:          RTR      0.00
+Average:          RES      0.00
+Average:          CAL      0.00
+Average:          TLB      0.00
+Average:          TRM      0.00
+Average:          THR      0.00
+Average:          DFR      0.00
+Average:          MCE      0.00
+Average:          MCP      0.00
+Average:          HYP      0.00
+Average:          HRE      0.00
+Average:          HVS      0.00
+Average:          ERR      0.00
+Average:          MIS      0.00
+Average:          PIN      0.00
+Average:          NPI      0.00
+Average:          PIW      0.00
+
+Average:     pswpin/s pswpout/s
+Average:         0.00      0.00
+
+Average:     pgpgin/s pgpgout/s   fault/s  majflt/s  pgfree/s pgscank/s pgscand/s pgsteal/s  pgprom/s   pgdem/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00     89.97     33.39
+
+Average:          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+Average:        38.76     27.06      6.89      4.81     37.27     29.64     32.05
+
+Average:    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty  kbanonpg    kbslab  kbkstack   kbpgtbl  kbvmused
+Average:      1437740   4389516   3179712     39.04    260172   2821596  12097852     48.54   4042384   1772396       396   2733164    445740     15328     73760         0
+
+Average:    kbswpfree kbswpused  %swpused  kbswpcad   %swpcad
+Average:     16777212         0      0.00         0      0.00
+
+Average:    kbhugfree kbhugused  %hugused kbhugrsvd kbhugsurp
+Average:            0         0      0.00         0         0
+
+Average:    dentunusd   file-nr  inode-nr    pty-nr
+Average:       156063     16704    157735         4
+
+Average:      runq-sz  plist-sz   ldavg-1   ldavg-5  ldavg-15   blocked
+Average:            3       956      3.16      3.24      3.43         0
+
+Average:          TTY   rcvin/s   xmtin/s framerr/s prtyerr/s     brk/s   ovrun/s
+Average:            0      0.00      0.00      0.00      0.00      0.00      0.00
+Average:            1      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:          DEV       tps     rkB/s     wkB/s     dkB/s   areq-sz    aqu-sz     await     %util
+Average:          sda      3.20      0.80      0.80      0.00      0.50      0.00      1.00      0.16
+Average:          sdb      0.34     11.31      0.00      0.00     33.62      0.05     47.00      0.03
+Average:          sdq     24.03     27.96      0.00     16.02      1.83      0.01      3.93      0.48
+Average:          sdr      6.57      4.01     11.22      0.00      2.32      0.05      7.32      4.68
+Average:          sds      5.43      8.33      2.80      0.00      2.05      0.03      5.58      0.32
+
+Average:        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       enp6s0     26.81      8.73     32.22      1.69      0.00      0.00      4.63      0.03
+Average:       virbr0      9.61      0.00      0.02      0.00      0.00      0.00     19.23      0.00
+Average:     virbr0-1     14.10      0.00      0.06      0.07      0.00      0.00    176.25      0.00
+Average:       wlp5s0     11.22     32.05      0.22      0.08      0.00      0.00     20.83      0.00
+
+Average:        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       virbr0      0.00      0.00      0.32      0.00      0.00      0.00      2.56      0.00      0.00
+Average:     virbr0-1      0.00      0.00      1.68      0.00      0.00      0.00      0.48      0.00      0.00
+Average:       wlp5s0      0.00      0.00      0.00      6.41      0.00      0.00      0.00      0.00      0.00
+
+Average:       call/s retrans/s    read/s   write/s  access/s  getatt/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+Average:         1316        10         6         0         0         1
+
+Average:       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:     active/s passive/s    iseg/s    oseg/s
+Average:         0.00      0.00      0.00      0.00
+
+Average:     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+Average:         0.00      0.00      0.00      0.00      0.00
+
+Average:       idgm/s    odgm/s  noport/s idgmerr/s
+Average:         0.00      0.00      0.00      0.00
+
+Average:      tcp6sck   udp6sck   raw6sck  ip6-frag
+Average:            3         3         1         0
+
+Average:      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+Average:      idgm6/s   odgm6/s noport6/s idgmer6/s
+Average:         0.00      0.00      0.00      0.00
+
+Average:    fch_rxf/s fch_txf/s fch_rxw/s fch_txw/s FCHOST
+Average:         0.00      0.00      0.00      0.00 host0
+
+Average:        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s   blg_len
+Average:        all      0.00      0.00      0.00      0.00      0.00         0
+
+Average:        CPU       MHz
+Average:        all   3522.54
+
+Average:        CPU    wghMHz
+Average:        all   1329.85
+
+Summary:        BUS  idvendor    idprod  maxpower manufact                product
+Summary:          1       3f0       862       196 HP                      HP Wireless Keyboard Mouse Kit
+Summary:          3      174c      55aa         0 ASMT                    ASM1153
+
+Summary:     MBfsfree  MBfsused   %fsused  %ufsused     Ifree     Iused    %Iused FILESYSTEM
+Summary:          273       206     42.93     51.97  19201593       455      0.00 /dev/sda9
+Summary:         1618       127      7.27     39.50   1621550    299810     15.60 /dev/sda7
+Summary:         2496       845     25.29     46.57  19051710    150338      0.78 /dev/sda12
+Summary:          705       145     17.04     18.92   6008414    102818      1.68 /dev/sda6
+Summary:          273       206     42.93     51.97  19201593       455      0.00 /dev/sdf
+Summary:         1618       127      7.27     39.50   1621550    299810     15.60 /dev/sdg
+
+Average:     %scpu-10  %scpu-60 %scpu-300     %scpu
+Average:         0.00      0.00      0.00      0.13
+
+Average:      %sio-10   %sio-60  %sio-300      %sio   %fio-10   %fio-60  %fio-300      %fio
+Average:         1.59      0.65      0.36      1.86      1.59      0.65      0.35      1.75
+
+Average:     %smem-10  %smem-60 %smem-300     %smem  %fmem-10  %fmem-60 %fmem-300     %fmem
+Average:        12.09      7.86      1.92      0.04      0.00      0.00      0.00      0.02

@@ -1,0 +1,311 @@
+Linux 5.0.16-100.fc28.x86_64 (linux.home) 	06/30/19 	_x86_64_	(8 CPU)
+
+05:39:21     LINUX RESTART	(8 CPU)
+
+05:39:33        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
+05:39:34        all      0.37      0.00      0.62      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+05:39:34          0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00    100.00
+05:39:34          1      0.99      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00     99.01
+05:39:34          2      0.00      0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00     98.98
+05:39:34          3      0.00      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+05:39:34          4      0.00      0.00      0.99      0.00      0.00      0.00      0.00      0.00      0.00     99.01
+05:39:34          5      0.99      0.00      0.99      0.00      0.00      0.00      0.00      0.00      0.00     98.02
+05:39:34          6      1.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+05:39:34          7      0.00      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+05:40:26     COM Hello world!
+Average:        all      0.37      0.00      0.62      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+Average:          0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00    100.00
+Average:          1      0.99      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00     99.01
+Average:          2      0.00      0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00     98.98
+Average:          3      0.00      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+Average:          4      0.00      0.00      0.99      0.00      0.00      0.00      0.00      0.00      0.00     99.01
+Average:          5      0.99      0.00      0.99      0.00      0.00      0.00      0.00      0.00      0.00     98.02
+Average:          6      1.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+Average:          7      0.00      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00     99.00
+
+05:39:33       proc/s   cswch/s
+05:39:34         0.00  11727.00
+05:40:26     COM Hello world!
+Average:         0.00  11727.00
+
+05:39:33     pswpin/s pswpout/s
+05:39:34         0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00
+
+05:39:33     pgpgin/s pgpgout/s   fault/s  majflt/s  pgfree/s pgscank/s pgscand/s pgsteal/s  pgprom/s   pgdem/s
+05:39:34         0.00      0.00    189.00      0.00    401.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00    189.00      0.00    401.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty  kbanonpg    kbslab  kbkstack   kbpgtbl  kbvmused
+05:39:34      3782488   5754884   1863816     22.88    238384   1910748   6335444     25.42   2378428   1370004        24   1599324    349640     13328     60680         0
+05:40:26     COM Hello world!
+Average:      3782488   5754884   1863816     22.88    238384   1910748   6335444     25.42   2378428   1370004        24   1599324    349640     13328     60680         0
+
+05:39:33    kbswpfree kbswpused  %swpused  kbswpcad   %swpcad
+05:39:34     16777212         0      0.00         0      0.00
+05:40:26     COM Hello world!
+Average:     16777212         0      0.00         0      0.00
+
+05:39:33    kbhugfree kbhugused  %hugused kbhugrsvd kbhugsurp
+05:39:34            0         0      0.00         0         0
+05:40:26     COM Hello world!
+Average:            0         0      0.00         0         0
+
+05:39:33    dentunusd   file-nr  inode-nr    pty-nr
+05:39:34       108520     14400    122115         2
+05:40:26     COM Hello world!
+Average:       108520     14400    122115         2
+
+05:39:33      runq-sz  plist-sz   ldavg-1   ldavg-5  ldavg-15   blocked
+05:39:34            0       826      0.15      0.22      0.26         0
+05:40:26     COM Hello world!
+Average:            0       826      0.15      0.22      0.26         0
+
+05:39:33          DEV       tps     rkB/s     wkB/s     dkB/s   areq-sz    aqu-sz     await     %util
+05:39:34          sda      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34         sda9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34        sda10      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34        sda11      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34        sda12      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:          sda      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:         sda9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:        sda10      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:        sda11      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:        sda12      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+05:39:34    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       wlp5s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       wlp5s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33        IFACE   rxerr/s   txerr/s    coll/s  rxdrop/s  txdrop/s  txcarr/s  rxfram/s  rxfifo/s  txfifo/s
+05:39:34    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:39:34       wlp5s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:    virbr0-nic      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       virbr0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       enp6s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+Average:       wlp5s0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33       call/s retrans/s    read/s   write/s  access/s  getatt/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33      scall/s badcall/s  packet/s     udp/s     tcp/s     hit/s    miss/s   sread/s  swrite/s saccess/s sgetatt/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33       totsck    tcpsck    udpsck    rawsck   ip-frag    tcp-tw
+05:39:34         1200         5         6         0         0         0
+05:40:26     COM Hello world!
+Average:         1200         5         6         0         0         0
+
+05:39:33       irec/s  fwddgm/s    idel/s     orq/s   asmrq/s   asmok/s  fragok/s fragcrt/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33    ihdrerr/s iadrerr/s iukwnpr/s   idisc/s   odisc/s   onort/s    asmf/s   fragf/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33       imsg/s    omsg/s    iech/s   iechr/s    oech/s   oechr/s     itm/s    itmr/s     otm/s    otmr/s  iadrmk/s iadrmkr/s  oadrmk/s oadrmkr/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33       ierr/s    oerr/s idstunr/s odstunr/s   itmex/s   otmex/s iparmpb/s oparmpb/s   isrcq/s   osrcq/s  iredir/s  oredir/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33     active/s passive/s    iseg/s    oseg/s
+05:39:34         0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00
+
+05:39:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+05:39:34         0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00
+
+05:39:33       idgm/s    odgm/s  noport/s idgmerr/s
+05:39:34         0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00
+
+05:39:33      tcp6sck   udp6sck   raw6sck  ip6-frag
+05:39:34            3         3         1         0
+05:40:26     COM Hello world!
+Average:            3         3         1         0
+
+05:39:33      irec6/s fwddgm6/s   idel6/s    orq6/s  asmrq6/s  asmok6/s imcpck6/s omcpck6/s fragok6/s fragcr6/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33    ihdrer6/s iadrer6/s iukwnp6/s  i2big6/s  idisc6/s  odisc6/s  inort6/s  onort6/s   asmf6/s  fragf6/s itrpck6/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33      imsg6/s   omsg6/s   iech6/s  iechr6/s  oechr6/s  igmbq6/s  igmbr6/s  ogmbr6/s igmbrd6/s ogmbrd6/s irtsol6/s ortsol6/s  irtad6/s inbsol6/s onbsol6/s  inbad6/s  onbad6/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33      ierr6/s idtunr6/s odtunr6/s  itmex6/s  otmex6/s iprmpb6/s oprmpb6/s iredir6/s oredir6/s ipck2b6/s opck2b6/s
+05:39:34         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+05:39:33      idgm6/s   odgm6/s noport6/s idgmer6/s
+05:39:34         0.00      0.00      0.00      0.00
+05:40:26     COM Hello world!
+Average:         0.00      0.00      0.00      0.00
+
+05:39:33        CPU   total/s   dropd/s squeezd/s  rx_rps/s flw_lim/s   blg_len
+05:39:34        all      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          0      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          1      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          2      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          3      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          4      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          5      0.00      0.00      0.00      0.00      0.00         0
+05:39:34          7      0.00      0.00      0.00      0.00      0.00         0
+05:40:26     COM Hello world!
+Average:        all      0.00      0.00      0.00      0.00      0.00         0
+Average:          0      0.00      0.00      0.00      0.00      0.00         0
+Average:          1      0.00      0.00      0.00      0.00      0.00         0
+Average:          2      0.00      0.00      0.00      0.00      0.00         0
+Average:          3      0.00      0.00      0.00      0.00      0.00         0
+Average:          4      0.00      0.00      0.00      0.00      0.00         0
+Average:          5      0.00      0.00      0.00      0.00      0.00         0
+Average:          7      0.00      0.00      0.00      0.00      0.00         0
+
+05:39:33        CPU       MHz
+05:39:34        all   1887.99
+05:39:34          0   1889.33
+05:39:34          1   1815.31
+05:39:34          2   2805.18
+05:39:34          3   1604.67
+05:39:34          4   1650.92
+05:39:34          5   1725.47
+05:39:34          6   1638.32
+05:39:34          7   1974.74
+05:40:26     COM Hello world!
+Average:        all   1887.99
+Average:          0   1889.33
+Average:          1   1815.31
+Average:          2   2805.18
+Average:          3   1604.67
+Average:          4   1650.92
+Average:          5   1725.47
+Average:          6   1638.32
+Average:          7   1974.74
+
+05:39:33          FAN       rpm      drpm DEVICE
+05:39:34            1   1280.00   1280.00 f71858fg-isa-0200
+05:39:34            2   1355.00   1355.00 f71858fg-isa-0200
+05:39:34            3      0.00      0.00 f71858fg-isa-0200
+05:39:34            4   1620.00   1620.00 nouveau-pci-0100
+05:40:26     COM Hello world!
+Average:            1   1280.00   1280.00 f71858fg-isa-0200
+Average:            2   1355.00   1355.00 f71858fg-isa-0200
+Average:            3      0.00      0.00 f71858fg-isa-0200
+Average:            4   1620.00   1620.00 nouveau-pci-0100
+
+05:39:33         TEMP      degC     %temp DEVICE
+05:39:34            1     35.50     50.71 f71858fg-isa-0200
+05:39:34            2     29.00     29.00 f71858fg-isa-0200
+05:39:34            3     30.38     30.38 f71858fg-isa-0200
+05:39:34            4     38.00     40.00 nouveau-pci-0100
+05:39:34            5     34.00     42.50 coretemp-isa-0000
+05:39:34            6     34.00     42.50 coretemp-isa-0000
+05:39:34            7     33.00     41.25 coretemp-isa-0000
+05:39:34            8     32.00     40.00 coretemp-isa-0000
+05:39:34            9     33.00     41.25 coretemp-isa-0000
+05:40:26     COM Hello world!
+Average:            1     35.50     50.71 f71858fg-isa-0200
+Average:            2     29.00     29.00 f71858fg-isa-0200
+Average:            3     30.38     30.38 f71858fg-isa-0200
+Average:            4     38.00     40.00 nouveau-pci-0100
+Average:            5     34.00     42.50 coretemp-isa-0000
+Average:            6     34.00     42.50 coretemp-isa-0000
+Average:            7     33.00     41.25 coretemp-isa-0000
+Average:            8     32.00     40.00 coretemp-isa-0000
+Average:            9     33.00     41.25 coretemp-isa-0000
+
+05:39:33           IN       inV       %in DEVICE
+05:39:34            0      3.33      0.00 f71858fg-isa-0200
+05:39:34            1      3.34      0.00 f71858fg-isa-0200
+05:39:34            2      3.31      0.00 f71858fg-isa-0200
+05:39:34            3      0.95     38.46 nouveau-pci-0100
+05:40:26     COM Hello world!
+Average:            0      3.33      0.00 f71858fg-isa-0200
+Average:            1      3.34      0.00 f71858fg-isa-0200
+Average:            2      3.31      0.00 f71858fg-isa-0200
+Average:            3      0.95     38.46 nouveau-pci-0100
+
+05:39:33        BUS  idvendor    idprod  maxpower manufact                product
+05:39:34          2       3f0       862       196 HP                      HP Wireless Keyboard Mouse Kit
+05:39:34          2      8087        24         0                         
+05:39:34          2       58f      6362       500 Generic                 Mass Storage Device
+05:39:34          1      8087        24         0                         
+05:39:34          2       46d       825      1000                         
+05:40:26     COM Hello world!
+Summary:          2       3f0       862       196 HP                      HP Wireless Keyboard Mouse Kit
+Summary:          2      8087        24         0                         
+Summary:          2       58f      6362       500 Generic                 Mass Storage Device
+Summary:          1      8087        24         0                         
+Summary:          2       46d       825      1000                         
+
+05:39:33     MBfsfree  MBfsused   %fsused  %ufsused     Ifree     Iused    %Iused FILESYSTEM
+05:39:34         9504     19897     67.68     72.83   1619537    301823     15.71 /dev/sda9
+05:39:34       278757     16408      5.56     10.65  19042352    159696      0.83 /dev/sda7
+05:39:34        84217      9140      9.79     14.91   5994692    116540      1.91 /dev/sda12
+05:39:34       279700     15464      5.24     10.33  19201593       455      0.00 /dev/sda6
+05:40:26     COM Hello world!
+Summary:         9504     19897     67.68     72.83   1619537    301823     15.71 /dev/sda9
+Summary:       278757     16408      5.56     10.65  19042352    159696      0.83 /dev/sda7
+Summary:        84217      9140      9.79     14.91   5994692    116540      1.91 /dev/sda12
+Summary:       279700     15464      5.24     10.33  19201593       455      0.00 /dev/sda6
